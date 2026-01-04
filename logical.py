@@ -1,5 +1,4 @@
-import automated
-import season
+
 def risk(weather,current_season):
     temp=weather["Temperature"]
     rainfall=weather['Rainfall']
@@ -26,6 +25,6 @@ def risk(weather,current_season):
     # If no risks found
     if not alerts:
         alerts.append("✅ No major risks detected.")
-        recommendations.append("Farming conditions are normal.")
+        recommendations.append("Farming conditions are normal.CHECK THE CURRENT SEASON BEFOR SOWN")
 
     return alerts, recommendations
