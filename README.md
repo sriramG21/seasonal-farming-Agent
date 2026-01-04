@@ -29,3 +29,14 @@ and recommendations.
 - Simple and clean Streamlit interface
 
 ---
+## live demo
+https://seasonal-farming-agent.streamlit.app/
+## Future scope
+In demo which we include only very minimum areas to demonstrate how it works
+which in the main project we add:
+- Crop-specific advisory rules based on soil type and region
+- Gen-AI (LLM) based explanation module to provide natural language farming guidance
+- SMS and mobile app notifications for real-time alerts
+- Market price and demand-based crop planning support
+- Multi-language support to assist farmers across different regions
+
